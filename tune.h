@@ -6,7 +6,7 @@
 class tune
 {
 public:
-  tune();
+        tune();
 	int add_bar();
 	int delete_bar();
 	bool useful();
