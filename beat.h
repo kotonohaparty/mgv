@@ -13,7 +13,7 @@ class beat
 class beat
 {
 public:
-  beat();
+        beat();
 	beat(uchar *im);
 	//beat(uchar_vector &vitem);
 	beat(const beat &bt);
