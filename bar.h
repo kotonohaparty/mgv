@@ -6,13 +6,10 @@
 /* for tune */
 #define BEAT_PER_BAR 8
 
-/*
-class bar, every tune includes eight beat. [6][22]
-*/
 class bar
 {
 public:
-  bar();
+        bar();
 	int add_beat(const beat &bt, const uchar n);
 	int delete_beat(const uchar n);
 	void clean();
